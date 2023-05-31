@@ -58,7 +58,6 @@ app.listen(
 app.get('/forms', (req, res) => {
 	Form.find().then((foundForms) => {
 		res.status(200).send(foundForms)
-		console.log(foundForms)
 	}).catch((err) => {
 		console.log(`Error occured in GET /forms api: ${JSON.stringify(err)}`)
 	})
