@@ -69,8 +69,8 @@ app.post('/submit/form', (req, res) => {
 	let formData = req.body
 
 	if(!formData || !formData.name || !formData.email || !formData.place || !formData.travellers || !formData.budget) {
-		console.log(`Missing data from request body. req body: ${JSON.stringify(formData)}`)
-		res.status(400).send({ message: `Missing data from request body. req body: ${JSON.stringify(formData)}` })
+		console.log(`Error: Missing data from request body. req body: ${JSON.stringify(formData)}`)
+		return res.status(400).send({ message: `Missing data from request body. req body: ${JSON.stringify(formData)}` })
 	}
 
 	// adding date to form data
