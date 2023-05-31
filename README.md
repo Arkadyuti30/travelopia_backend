@@ -18,4 +18,6 @@ Follow these steps to set this project locally
 
 You can access the frontend for this project here - https://travel-frontend-bouv.onrender.com/
 
-You can see the video demo of the whole project here -
+You can see demo videos here:
+1. Problem statement + Backend: https://www.loom.com/share/2a09aa53a90d4fe094175b1eb0265825
+2. cont. of 1 + Frontend: https://www.loom.com/share/526824ef2ea346b58243ca449829ced8
